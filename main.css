@@ -6,8 +6,10 @@ body {
     margin: 0;
 }
 
-.aboutme {
+#headshot {
     background-color: rgb(33, 211, 86);
     color: green;
 }
+
+
 
