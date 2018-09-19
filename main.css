@@ -20,10 +20,10 @@ h2 {
 
 div {
     width: 300px;
-    border: 25px solid grey;
-    padding: 25px;
-    margin:25px;
-    background: whitesmoke;
+    border: 5px grey;
+    margin:5px;
+    background: white;
+    font-style: Helvetica;
 }
 
 
