@@ -1,4 +1,8 @@
-html, body {
-    min-height: 100%;
-    display:
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: lightblue;
+    background-position: center top;
+    background-size: cover; 
+    margin: 0;
 }
+
