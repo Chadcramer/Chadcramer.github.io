@@ -6,7 +6,8 @@ body {
     margin: 0;
 }
 
-.aboutme p {
+.aboutme {
     background-color: rgb(33, 211, 86);
+    color: green;
 }
 
