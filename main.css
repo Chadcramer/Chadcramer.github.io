@@ -1,4 +1,4 @@
-bod {
+body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(231, 240, 243);
     background-position: center top;
@@ -6,19 +6,24 @@ bod {
     margin: 0;
 }
 
-div.headshot{
+h1.name {
     background-color: red;
     color: red;
 }
 
-p.history {
+h1.title {
     background-color: orange;
     color: orange;
 }
 
-.headshot {
+div.name {
     background-color: greenyellow;
     color: greenyellow;
+}
+
+div.title {
+    background-color: pink;
+    color: pink;
 }
 
 
