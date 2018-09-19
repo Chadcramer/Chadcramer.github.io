@@ -1,38 +1,17 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: rgb(81, 211, 131);
+    background-color: rgb(225, 229, 252);
     background-position: center top;
     background-size: cover; 
-    border: 10px solid rgb(76, 175, 67);
-    margin: 50px;
+    border: 5x solid rgba(0, 2, 0, 0.979);
+    margin: 10px;
 }
 
 h1.name {
-    border: 10px solid red;
+    border: 10px solid white;
     margin: 50px;
-    background-color: red;
-    color: red;
-}
-
-h1.title {
-    border: 10px solid orange;
-    margin: 50px;
-    background-color: orange;
-    color: orange;
-}
-
-div.name {
-    border: 10px solid greenyellow;
-    margin: 50px;
-    background-color: greenyellow;
-    color: greenyellow;
-}
-
-div.title {
-    border: 10px solid pink;
-    margin: 50px;
-    background-color: pink;
-    color: pink;
+    background-color: black;
+    color: white;
 }
 
 
