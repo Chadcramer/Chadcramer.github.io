@@ -3,25 +3,34 @@ body {
     background-color: rgb(231, 240, 243);
     background-position: center top;
     background-size: cover; 
-    margin: 0;
+    border: 10px solid rgb(231, 240, 243);
+    margin: 50px;
 }
 
 h1.name {
+    border: 10px solid red;
+    margin: 50px;
     background-color: red;
     color: red;
 }
 
 h1.title {
+    border: 10px solid orange;
+    margin: 50px;
     background-color: orange;
     color: orange;
 }
 
 div.name {
+    border: 10px solid greenyellow;
+    margin: 50px;
     background-color: greenyellow;
     color: greenyellow;
 }
 
 div.title {
+    border: 10px solid pink;
+    margin: 50px;
     background-color: pink;
     color: pink;
 }
