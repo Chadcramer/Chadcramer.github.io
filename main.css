@@ -1,12 +1,12 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: lightblue;
+    background-color: rgb(220, 240, 247);
     background-position: center top;
     background-size: cover; 
     margin: 0;
 }
 
 .aboutme p {
-    background-color: yellow;
+    background-color: rgb(153, 221, 215);
 }
 
