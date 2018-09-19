@@ -6,12 +6,12 @@ body {
     margin: 0;
 }
 
-.headshot h1 {
+div.headshot{
     background-color: red;
     color: red;
 }
 
-.headshot h2 {
+p.history {
     background-color: orange;
     color: orange;
 }
