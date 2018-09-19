@@ -2,21 +2,27 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: rgb(225, 229, 252);
     background-position: center top;
-    background-size: cover; 
     border: 5x solid rgba(0, 2, 0, 0.979);
     margin: 10px;
     font: black;
 }
 
 h1.name {
-    border: 10px solid white;
+    border: 10px solid black;
     margin: 50px;
-    background-color: black;
+    background-color: white;
+    color: black;
 }
 
 h2 {
     font-weight: strong;
 }
 
+div {
+    width: 300px;
+    border: 25px solid grey;
+    padding: 25px;
+    margin:25px;
+}
 
 
