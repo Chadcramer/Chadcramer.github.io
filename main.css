@@ -118,3 +118,7 @@ footer {
 #branding h1 {
     margin-left: 20px;
 }
+
+#showcase {
+    border-bottom: orange 3px solid;
+}
