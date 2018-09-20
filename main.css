@@ -19,6 +19,7 @@ h1.name {
 
 h2 {
     font-weight: strong;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
@@ -30,4 +31,10 @@ div {
     margin: 10px;
 }
 
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
