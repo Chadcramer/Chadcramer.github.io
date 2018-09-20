@@ -111,8 +111,8 @@ footer {
     text-align: center;
 }
 
-#boxes .fab fa-linkedin {
-    width: 200px;
+#social {
+    font-size: 100px;
 }
 
 #branding h1 {
