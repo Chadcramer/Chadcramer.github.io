@@ -58,4 +58,6 @@ padding: 0;
     margin-top: -5px;
 }
 
-
+li:hover {
+    transform: scale(1.1);
+}
