@@ -61,3 +61,21 @@ padding: 0;
 li:hover {
     transform: scale(1.1);
 }
+
+img {
+    border-radius: 50%;
+    width: 200px; 
+    height: 250px;
+    display: block;
+    margin: 50 auto;
+}
+
+#face {
+    text-align: center;
+}
+
+#face p {
+    margin: 0px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
