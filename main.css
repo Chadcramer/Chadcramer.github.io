@@ -1,81 +1,169 @@
 body {
-    font-family: "Open-Sans", Arial, Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0px;
-    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);;
-    color: Black;
-}
-
-#tops h1{
-    float: left;
-    text-transform: uppercase;
-    font-family: "Open Sans";
-    font-size: 50px;
-    float: left;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 50px;
-    padding-right: 0px;
-    margin-top: -10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#tops a {
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-#tops {
-    background-color: white;
-    color: black;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: white:
-}
-
-#tops ui {
-margin: 0;
-padding: 0; 
-}
-
-
-#tops li {
-    float: right;
-    padding: 0 20px 0 20px;
-    display: inline;
-}
-
-.cat {
-    margin-top: -0px;
-    float: right;
-    display: inline;
-}
-
-.dog {
-    margin-top: -5px;
-}
-
-li:hover {
-    transform: scale(1.1);
-}
-
-img {
-    border-radius: 50%;
-    width: 200px; 
-    height: 250px;
-    display: block;
-    margin: 50 auto;
-}
-
-#face {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
-#face p {
-    margin: 0px;
-    padding-left: 500px;
-    padding-right: 500px;
+* {
+    margin: 0;
+    padding: 0;
 }
+
+.intro {
+    top: 0;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+    min-height: 35vh;
+    padding-top: 30vh;
+}
+
+.intro p {
+    color: black;
+    padding-top: 10px;
+}
+
+nav ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background: #F8F8FF;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 55px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(35, 177, 35);
+}
+
+.work {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+.work .work-header {
+    margin-top: 50px;
+    color: #008080;
+    font-weight: normal;
+}
+
+.project {
+    text-decoration: none;
+    color: #008080;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid lightblue;
+    height: 220px;
+    width: 280px;
+    margin: 40px 100px;
+}
+
+.project-pic {
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+
+.show-all {
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin: 20px auto 90px;
+     background: #e0ebe8;
+    color: #008080;
+    font-weight: bold;
+    font-size: 1em;
+    border: 2px solid #90C695;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-top:10px;
+}
+
+.show-all:hover {
+    background: #E4F1FE;
+    color: green;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      margin: 20px;
+    }
+    .project {
+      margin: 40px 0;
+    }
+  }
+  
+  .contact {
+    /*   height:800px; */
+    /*   min-height:800px; */
+    background: #C8F7C5;
+    padding-bottom: 160px;
+  }
+  
+  .header {
+    padding: 160px 0 110px;
+  }
+  
+  .contact-details {
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 35px 45px 35px;
+    list-style-type: none;
+    border: 2px solid #90C695;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #e0ebe8;
+    color: #008080;
+    text-decoration: none;
+  }
+  
+  .contact-details:hover {
+    background: #E4F1FE;
+    color: green;
+  }
+  
+  footer {
+    padding: 20px;
+    background: #22313F;
+    color: white;
+    line-height: 40px;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  @media only screen and (max-width: 367px) {
+    /*    #contact{
+      min-height:1100px;
+    } */
+    .contact-details {
+      border: 2px solid #90C695;
+      border-radius: 0;
+      width: 90px;
+      height: 20px;
+      padding: 10px;
+      line-height: normal;
+    }
+  }
+
+

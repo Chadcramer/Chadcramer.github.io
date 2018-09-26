@@ -1,43 +1,58 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
  <head>
-     <meta charset="utf-8" />
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Chad Cramer | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/81756dabc7.js"></script>
-    <script src="main.js"></script>
  </head>
 
 <body>
-    <section id="tops">
+    <nav>
+        <ul id='navbar'>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="welcome-section" class="intro">
         <h1>Chad Cramer</h1>
-        <nav>  
-          <ul class="cat">
-            <li><a href="https://www.linkedin.com/in/chad-cramer/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
-            <li><a href="https://github.com/Chadcramer" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
-          </ul>                
-        </nav>
-        <nav>
-            <ol class="dog">
-                 <li><a href="#Contact">Contact</a></li>
-                 <li><a href="#Portfolio">Portfolio</a></li>
-                 <li><a href="#Services">Services</a></li>
-                 <li><a href="#About">About</a></li>
-                 <li><a href="#Welcome">Home</a></li>              
-            </ol>
-            </nav>
-    </section>
+        <p>Software Developer</p>
+    </div>
 
-    <section id="face">
-        <img src="headshot.jpg" alt="Chad Cramer headshot">
-        <h3>Chad Cramer</h3>
-        <h4>Software Developer</h4>
-        <p>Looking to obtain a programming internship that will
-            expand on my current understanding and allow me to work
-            on problems that challenge and interest me.</p>
-    </section>
+    <div id="projects" class="work">
+        <h2 class="work-header">Here are some of my projects..</h2>
+
+        <a href="https://codepen.io/chadcramer/full/XPLrNp/" target="_blank" class="project project-tile">
+            <img class="project-pic" src="https://cdn-images-1.medium.com/max/1554/0*kIvi9mTnSxkdw9GQ.jpg" alt="project">
+            <div class="project-title">Tribute Page - Boulder</div></a>
+        
+        <a href="https://codepen.io/chadcramer/full/XP…" target="_blank" class="project project-title">
+            <img class="project-pic" src="https://images.template.net/wp-content/uploads/2016/05/17105856/Example-Template-to-Download-Demographic-Survey-Questions.jpg" alt="project">
+            <div class="project-title">CU Blockchain Survey</div></a>
+        
+        <a href="https://codepen.io/chadcramer/full/RY…" target="_blank" class="project project-title">
+            <img class="project-pic" src="https://confluence.atlassian.com/conf59/files/792499400/792499402/1/1449098546689/reuse+content.png" alt="project">
+            <div class="project-title">Technical Documentation Page - Ethereum</div></a>
+        
+        <a href="https://github.com/Chadcramer?tab=repositories" class="show-all" target="_blank">Show All</a>
+    </div>
+
+    <div id="contact" class="contact">
+        <div class="header">
+            <h1>Let's work together...</h1>
+            <p>Find me at:</p>
+        </div>
+        <a href="https://www.linkedin.com/in/chad-cramer/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="https://github.com/Chadcramer" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://twitter.com/Chad_Cramer_" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+    </div>
+
+    <footer>
+        Chad Paul Cramer &copy; 2018</p>
+    </footer>
+
 </body>
-</html>
