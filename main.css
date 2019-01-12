@@ -1,198 +1,99 @@
 body {
-    font-family: 'Lato', 'Open Sans', sans-serif;
-    text-align: center;
-    background-color: #B2DBBF;
-}
-
-* {
     margin: 0;
     padding: 0;
+    background: #ccc;
+    font-family: 'Consolas', 'lato';
 }
 
-.intro {
-    top: 0;
-    background: #70C1B3;
-    min-height: 35vh;
-    padding-top: 30vh;
-    font-size: 30px;
+/* Navigation header */
+.nav ul {
+    list-style: none;
+    background-color: rgb(72, 61, 139);
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
-.intro p {
-    color: white;
-    padding-top: 10px;
-}
-
-nav ul {
-    text-align: right;
-    position: fixed;
-    width: 100%;
-    background: #247BA0;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 55px;
-    margin-bottom: 15px;
-    margin-top: 25px;
-}
-
-a:link {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    color: white;
-}
-
-.work {
-    padding-top: 60px;
-    margin-top: -60px;
-}
-
-.work .work-header {
-    margin-top: 50px;
-    color: #000000;
-    font-weight: normal;
-}
-
-.project {
-    text-decoration: none;
-    color: #000000;
-    display: inline-block;
-    overflow: hidden;
-    border: 2px solid white;
-    height: 220px;
-    width: 280px;
-    margin: 40px 100px;
-}
-
-.project-pic {
-    width: 100%;
-    height: 180px;
-    border-bottom: 2px solid white;
-}
-
-.project-title {
-    font-weight: bold;
-    padding-top: 10px;
-}
-
-
-.show-all {
-    text-decoration: none;
-    display: block;
-    width: 200px;
-    height: 30px;
-    margin: 20px auto 90px;
-     background: white;
-    color: black;
-    font-weight: bold;
-    font-size: 1em;
-    border: 2px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-    padding-top:10px;
-}
-
-.show-all:hover {
-    background: #E4F1FE;
-    color: #000000;
-  }
-  
-  @media only screen and (max-width: 500px) {
-    nav ul {
-      text-align: center;
-    }
-    nav ul li {
-      margin: 20px;
-    }
-    .project {
-      margin: 40px 0;
-    }
-  }
-  
-  .contact {
-    /*   height:800px; */
-    /*   min-height:800px; */
-    background: #F3FFBD;
-    padding-bottom: 160px;
-  }
-  
-  .header {
-    padding: 160px 0 110px;
-  }
-  
-  .contact-details {
-    display: inline-block;
-    font-weight: bold;
-    margin: 0 35px 45px 35px;
-    list-style-type: none;
-    border: 2px solid #000000;
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    background: #000000;
-    color: #008080;
-    text-decoration: none;
-  }
-  
-  .contact-details:hover {
-    background: #000000;
-    color: #000000;
-  }
-  
-  footer {
-    padding: 20px;
-    background: #FF1654;
-    color: white;
+.nav li {
+    font-family: 'late', 'Consolas', 'Oswald', sans-serif;
+    font-size: 1.2em;
     line-height: 40px;
-  }
-  
-  footer a {
-    color: white;
-  }
-  
-  @media only screen and (max-width: 367px) {
-    /*    #contact{
-      min-height:1100px;
-    } */
-    .contact-details {
-      border: 2px solid black;
-      border-radius: 0;
-      width: 90px;
-      height: 20px;
-      padding: 10px;
-      line-height: normal;
+    height: 40px;
+    border-bottom: 1px solid #888;  
+    margin-right: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover {
+    font-weight: bold;
+    transition: .3s background-color;
+}
+
+a.active {
+    background-color: #fff;
+    color: #444;
+}
+
+/* Anything less than 600px will show navigation vertically, and anything with  more resolution will show it horizontally. */
+@media screen and (min-width: 600px){
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
     }
-  }
-
-h1 {
-    color: black;
-    padding-bottom: 10px;
+    .nav .homeimg {
+        margin-right: 690px;
+        font-size: 3em;
+    }
+    .navright {
+        float: right;
+    }
 }
 
-#contact {
-    background-color: #F3FFBD;
+/* landing page main */
+.intropage {
+    background: rgb(241, 246, 249);
+    padding: 1rem;
+    width: 100%; 
+    text-align: center;  
+    display: inline-block;
 }
 
-.fa-linkedin-in {
-    color: black;
-    padding-right: 200px;
-
+.intropage .firstname {
+    color: rgb(72, 61, 139);
+    margin-bottom: -90px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
-.fa-github {
-    color: black;
+.intropage .lastname {
+    color: rgb(255, 165, 0);
+    margin-bottom: -20px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-.fa-twitter-square {
-    color: black;
-    padding-left: 200px;
+.bodyname h1 {
+    font-size: 6.2rem;
 }
 
-.work-header {
-    font-size: 27px;
+.intropage  .title {
+    color: rgb(72, 61, 139);
+    font-size: 3rem;
+    margin-top: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+#loadImg {
+    margin-top: -120px;
+    z-index: -1;
 }
