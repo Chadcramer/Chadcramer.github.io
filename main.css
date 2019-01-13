@@ -139,6 +139,7 @@ a.active {
     font-family: 'Lato', sans-serif;
     padding-left: 5px;
     border-left: 2px solid rgb(255, 165, 0);
+    margin-top: -10px;
 }
 
 #socials1 li {
@@ -184,4 +185,49 @@ a.active {
 .socials4:hover{
     font-weight: bold;
     transition: .2s font-weight;
+}
+
+/* Projects.html page using Flexbox */
+#projectbody {
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#projecth1 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: rgb(72, 61, 139);
+    font-size: 3em;
+    border-bottom: 2px solid rgb(255, 165, 0);
+    border-right: 2px solid rgb(255, 165, 0);
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+}
+
+
+.container img {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+    padding: 20px;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+
+.img_description {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    max-width: 460px;
+    text-align: left;
 }
